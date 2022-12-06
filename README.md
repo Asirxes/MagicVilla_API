@@ -30,3 +30,7 @@ PATCH https://localhost:7076/api/villaapi/{id} with body "[{
 DELETE https://localhost:7076/api/villaapi/{id}
 
 Make sure to fill id parameter, that app is running and when posting, puting and patching select body raw with json format.
+
+Database is managed by sqlServer and in project Entity Framewrok is used to manipulate the data.
+
+Registering informations to text file is implemented thanks to Serilog.
